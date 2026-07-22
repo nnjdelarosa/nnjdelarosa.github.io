@@ -67,7 +67,7 @@
   @media (max-width: 820px) { .hero-grid { grid-template-columns: 1fr; } .hero-photo { order: -1; justify-self: start; } }
   .hero-photo { position: relative; justify-self: end; }
   .hero-photo img {
-    display: block; width: min(300px, 60vw); aspect-ratio: 1; object-fit: cover;
+    display: block; width: min(300px, 60vw); height: min(300px, 60vw); object-fit: cover;
     border-radius: 50%; border: 3px solid var(--border);
   }
   .hero-photo::before {
@@ -226,7 +226,7 @@
         </div>
       </div>
       <div class="hero-photo">
-        <img src="photo.jpg" alt="Nathan Dela Rosa" width="469" height="469" />
+        <img src="photo.jpg" alt="Nathan Dela Rosa" />
       </div>
     </div>
     <div class="stats">
